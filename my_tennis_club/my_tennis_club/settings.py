@@ -24,9 +24,9 @@ SECRET_KEY = 'django-insecure--z=n-e=qkva_(-%jbzi3qb5nx2#-@goo&+swf91sq!z8zb@=ul
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+#make this false for the 404 page
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
